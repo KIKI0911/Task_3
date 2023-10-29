@@ -16,5 +16,13 @@
 例えば、
 `URL:https://instance.com/list?userId=monkey`
    この場合、?の後ろにある"userId=monkey"がクエリ文字列になります。
-また、パス変数は上記のURLでは"list"になります。
+また、パス変数はこのURLでは"list"になります。
 # HTTPメソッドとは何か
+HTTPメソッドは、対象となるリソースに対して「何をしたいか」を指示するもので、
+GET、POST、PUT、PATCH、DELETEが用意されている。下記にそれらのメソッドの内容を記載します。
+- GET
+> WebブラウザからWebサーバに渡す値をURL（ホームページの住所）の後ろにくっつけて送ること。
+- POST
+> WebブラウザからWebサーバに渡す値を見えないところにくっつけて送ることです。
+-PUT
+> 
