@@ -55,8 +55,14 @@ WebサーバーからWebブラウザに送信されるデータやコンテン�
 JSON（JavaScript Object Notation）は、データをコンピュータが理解しやすい形式で表現する方法。テキストベースなので、データを視覚的に理解しやすいことから人間にとって分かりやすい形式です。
 # JSONを使ってデータを表現
 ユーザー情報をJSONを使用して表現した場合：<br>
-`"id": 111367,`<br>
-`"username": "Monkey",`<br>
-`"name": "Monkey D",`<br>
-`"email": "monkey@example.com",`<br>
-`"age": 17,`
+```JSON
+{
+"User01":{
+"id": 111367,
+"username": "Monkey",
+"name": "Monkey D",
+"email": "monkey@example.com",
+"age": 17,
+   }
+}
+```
