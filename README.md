@@ -57,12 +57,12 @@ JSON（JavaScript Object Notation）は、データをコンピュータが理�
 ユーザー情報をJSONを使用して表現した場合：<br>
 ```JSON
 {
-"User01":{
-"id": 111367,
-"username": "Monkey",
-"name": "Monkey D",
-"email": "monkey@example.com",
-"age": 17,
+   "User01":{
+      "id":111367,
+      "username":"Monkey",
+      "name":"Monkey D",
+      "email":"monkey@example.com",
+      "age":17
    }
 }
 ```
